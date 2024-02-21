@@ -1,15 +1,18 @@
 {
   "name": "my-project",
-  "private": true,
   "version": "0.1.0",
+  "private": true,
   "description": "A Strapi application",
+  "license": "MIT",
+  "author": {
+    "name": "A Strapi developer"
+  },
   "scripts": {
+    "build": "strapi build",
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@strapi/plugin-i18n": "4.14.5",
     "@strapi/plugin-users-permissions": "4.14.5",
@@ -19,15 +22,12 @@
     "nodemailer": "^6.9.6",
     "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
-  "strapi": {
-    "uuid": "9eea8c16-24aa-4af9-b374-6a09057affc8"
-  },
+  "devDependencies": {},
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "strapi": {
+    "uuid": "9eea8c16-24aa-4af9-b374-6a09057affc8"
+  }
 }
