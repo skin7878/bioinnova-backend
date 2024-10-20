@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "market_lots",
+  "info": {
+    "singularName": "market-lot",
+    "pluralName": "market-lots",
+    "displayName": "MarketLot",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "discription": {
+      "type": "text"
+    },
+    "author": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Book",
+        "Video"
+      ]
+    },
+    "videoLink": {
+      "type": "string"
+    },
+    "bookLink": {
+      "type": "string"
+    }
+  }
+}

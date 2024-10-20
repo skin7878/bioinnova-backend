@@ -20,9 +20,10 @@
     "@strapi/strapi": "4.14.5",
     "mysql": "2.18.1",
     "nodemailer": "^6.9.6",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
     "strapi-plugin-wysiwyg-react-md-editor": "^4.3.0"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=16.0.0 <=20.x.x",
     "npm": ">=6.0.0"
